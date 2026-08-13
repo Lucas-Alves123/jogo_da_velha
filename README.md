@@ -54,6 +54,3 @@ Como o projeto foi projetado com arquitetura estática, não há processos de bu
 
 - **Ausência de Frameworks React/Vue/Angular:** Para uma aplicação de escopo reduzido (micro-projeto), a introdução de uma Virtual DOM e dependências no pacote NPM geraria "overhead" desnecessário. A manipulação direta do DOM se provou mais eficiente e performática (carregamento instantâneo de ~10ms).
 - **Grid Layout com Aspect Ratio:** O grid CSS nativo lidou com as matrizes do tabuleiro 3x3 perfeitamente. O uso de `aspect-ratio: 1` nas células garante consistência sem a necessidade de hacks com *padding tricks* ou cálculos via JavaScript em eventos de "resize".
-
----
-Desenvolvido com foco em código limpo e fundamentos sólidos de engenharia front-end.
